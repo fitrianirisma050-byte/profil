@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio | Fitriani Risma</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Fitriani Risma</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">Tentang Saya</a></li>
+        <li><a href="#projects">Projek</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Fitriani Risma</h1>
+      <p>Full-Stack Developer</p>
+      <a href="#projects" class="cta-btn">Lihat Projek Saya</a>
+    </section>
+
+    <section id="about" class="about">
+      <h2>Tentang Saya</h2>
+      <div class="about-content">
+        <img src="profile.jpg" alt="Foto Profil" class="profile-img" />
+        <div>
+          <p>Saya adalah pengembang full-stack yang berpengalaman di backend (Python, Flask, Django) dan frontend (HTML5, CSS3, JavaScript).</p>
+          <div class="skills">
+            <span title="Python">🐍</span>
+            <span title="Flask">🌶️</span>
+            <span title="Django">🌱</span>
+            <span title="JavaScript">🟨</span>
+            <span title="HTML5">🟥</span>
+            <span title="CSS3">🟦</span>
+            <!-- Tambahkan ikon lain sesuai kebutuhan -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <h2>Projek</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="project1.jpg" alt="Projek 1" />
+          <h3>Website Toko Online</h3>
+          <p>Aplikasi toko online berbasis Flask dengan fitur keranjang dan pembayaran.</p>
+          <div class="project-links">
+            <a href="https://github.com/fitrianirisma050-byte/toko-online" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Demo</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="project2.jpg" alt="Projek 2" />
+          <h3>Task Manager</h3>
+          <p>Task manager responsif dengan Flask REST API dan frontend JavaScript.</p>
+          <div class="project-links">
+            <a href="https://github.com/fitrianirisma050-byte/task-manager" target="_blank">GitHub</a>
+            <a href="#" target="_blank">Demo</a>
+          </div>
+        </div>
+        <!-- Tambah projek lain sesuai kebutuhan -->
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Kontak</h2>
+      <form id="contact-form">
+        <label>Nama
+          <input type="text" name="nama" required />
+        </label>
+        <label>Email
+          <input type="email" name="email" required />
+        </label>
+        <label>Pesan
+          <textarea name="pesan" required></textarea>
+        </label>
+        <button type="submit">Kirim</button>
+        <div id="form-msg"></div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div>
+      <a href="https://linkedin.com/in/fitrianirisma" target="_blank">LinkedIn</a> |
+      <a href="https://github.com/fitrianirisma050-byte" target="_blank">GitHub</a> |
+      <a href="mailto:fitriani.risma@mail.com">Email</a>
+    </div>
+    <div>&copy; 2025 Fitriani Risma.</div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
